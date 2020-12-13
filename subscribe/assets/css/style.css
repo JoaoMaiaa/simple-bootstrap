@@ -1,0 +1,45 @@
+/* All */
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x:hidden;
+}
+
+/* First col */
+.img{
+    background:linear-gradient(to right, transparent 0%, #fff 90%),url('../img/peak-5645235_1280.jpg');
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* Second col */
+#form-height{height:80vh;}
+
+.border-top{
+    border-top:5px solid #007bff!important;
+    border-color:#007bff!important;
+}
+
+.facebook{
+    background-color:#3b5998!important;
+    border-color:#3b5998!important;
+    padding:6px 14px;
+}
+
+.facebook:hover{
+    background-color:#4b6399!important;
+    border-color:#4b6399!important;
+}
+
+.btn-pink{
+    background-color:#DD2A7B!important;
+    border-color:#DD2A7B!important;
+    color:#fff;
+}
+
+.btn-pink:hover{
+    background-color:#db4187!important;
+    border-color:#db4187!important;
+    color:#fff;
+}
+

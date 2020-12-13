@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Subscribe</title>
+</head>
+<body>
+    
+    <section>
+        <div class="row no-gutters">
+            <div class="d-none d-md-block col-12 col-md-6">
+                <div class="img"></div>
+            </div>
+            <div  class="col-12 col-md-6 anime">
+                <h1 class="pt-4 text-primary text-center font-weight-bold text-uppercase">Subscribe</h1>
+                <div id="form-height" class="container d-flex pb-5">
+                    <div class="card border-0 m-auto pb-5">
+                        <div class="card-body rounded border-top border-primary border-left-0 border-right-0 border-bottom-0">
+                            <form class=""> 
+                                <div class="nav nav-tabs" id="myTab" role="tablist">                                    
+                                    <a class="nav-item nav-link active" id="step-1-tab" data-toggle="tab" href="#step-1" role="tab" aria-controls="step-1" aria-selected="true">Step 1</a>                                                                 
+                                    <a class="nav-item nav-link" id="step-2-tab" data-toggle="tab" href="#step-2" role="tab" aria-controls="step-2" aria-selected="false">Step 2</a>                                
+                                    <a class="nav-item nav-link" id="step-3-tab" data-toggle="tab" href="#step-3" role="tab" aria-controls="step-3" aria-selected="false">Step 3</a>
+                                </div>  
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="step-1" role="tabpanel" aria-labelledby="step-1-tab">
+                                        <div class="form-group pt-4">
+                                            <input type="text" class="form-control form-control-lg rounded-0" placeholder="Name">
+                                        </div>  
+                                        <div class="form-group mb-4">
+                                            <input type="email" class="form-control form-control-lg rounded-0" placeholder="Email">
+                                        </div>                                        
+                                    </div> 
+                                    <div class="tab-pane fade" id="step-2" role="tabpanel" aria-labelledby="step-2-tab">
+                                        <div class="form-group pt-4 mb-4">
+                                            <input type="number" class="form-control form-control-lg rounded-0" placeholder="Number">
+                                        </div>                                          
+                                    </div>
+                                    <div class="tab-pane fade" id="step-3" role="tabpanel" aria-labelledby="step-3-tab">
+                                        <div class="form-group pt-4">
+                                            <input type="number" class="form-control form-control-lg rounded-0" placeholder="How much is 2 + 2?">
+                                        </div>  
+                                        <div class="nav nav-tabs" id="myTab" role="tablist">                                    
+                                            <div class="mx-auto">
+                                                <a href="#" class="btn btn-primary btn-lg btn-block rounded-0 mt-3 mb-4">Subscribe</a>
+                                            </div>                                                                 
+                                        </div>
+                                    </div>                                      
+                                </div> 
+                                <div class="d-flex">
+                                    <ul class="list-unstyled list-inline mx-auto">
+                                        <li class="list-inline-item"><a class="btn btn-pink" href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a class="btn btn-primary facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li class="list-inline-item"><a class="btn btn-danger" href="#"><i class="fab fa-youtube"></i></a></li>
+                                        <li class="list-inline-item"><a class="btn btn-primary" href="#"><i class="fab fa-twitter"></i></a></li>
+                                    </ul>
+                                </div>
+                            </form>  <!-- form -->                       
+                        </div><!-- card-body -->
+                    </div><!-- card -->
+                </div><!-- container -->
+            </div>
+        </div>
+    </section>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
