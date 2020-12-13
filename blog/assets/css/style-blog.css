@@ -1,0 +1,127 @@
+body{
+    color:#878787;
+    font-family: 'Mulish', sans-serif;
+}
+
+section{
+    padding:100px 0;
+    margin-top:100px;
+}
+
+.bg-light-yellow{background-color:#ecebe1!important;}
+.color-crimson,
+.color-crimson:hover{color:#878787;}
+.text-dark{color:#1E1E1E!important;}
+.active{color:#59815b!important; background-color:#ecebe1!important}
+p{
+    font-weight:600;
+    font-size:16px;
+    line-height:26px;
+}
+
+.color-whatever{color:#59815b;}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Oswald', sans-serif;
+    color:#1e1e1e;
+    letter-spacing:.02rem;
+    font-weight:700;
+    text-transform:uppercase;
+}
+
+.crimson-text{
+    font-family: 'Crimson Text', serif;
+    font-style:italic;
+    font-weight:400;
+    font-size:18px;
+}
+
+blockquote{
+    font-size:33px;
+    font-weight:600;
+    color:#59815b;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*header*/
+.first-content{
+    height:68vh;
+    background:url('../img/blog-post-img-09.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+.navbar-light, .bg-light{background:transparent!important;}
+.navbar a.nav-link{font-family: 'Oswald', sans-serif;color:#fff!important;}
+.navbar .navbar-brand {
+    min-width:150px;
+    height:76px; 
+}
+.navbar .navbar-brand .img{
+    max-width:170px;
+    height:76px;
+    background:url('../img/logo-img-03.png');
+    background-position:center;
+    background-size:cover;
+}
+
+header h1{padding-top:100px;}
+
+/*photo*/
+.photo{padding-bottom:0;}
+
+/*previous*/
+.previous img{width:40px;}
+.next img{width:40px;}
+
+/*form*/
+form a {
+    font-family:'Oswald', sans-serif;
+    background-color:#59815b!important;
+    border-color:#59815b!important;
+    width:150px;
+}
+
+form a:hover{background-color:#496e4b!important;}
+
+.form-control{
+    border:0;
+    transition:all .4s;
+    border:1px solid #e1e1e1;
+    padding:28px 15px;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    transition:all .4s;
+    border:1px solid #878787;
+}
+
+footer{background-color:#111!important;}
+footer ul, footer p{margin:0!important;}
+
+footer a{transition:all .4s}
+footer a:hover{color:#fff!important; transition:all .4s}
+
+@media (max-width: 991.98px) {
+    .navbar-light, .bg-light{background:#fff!important;}
+    .navbar .navbar-brand{
+        min-width:150px;
+        height:76px;       
+    }
+    .navbar .navbar-brand .img{
+        background: url('../img/logo-dark-img-01.png');
+        max-width:80px;
+        height:76px;
+        background-size: contain;
+        background-position: center;
+        background-repeat:no-repeat;
+    }
+
+    .navbar a.nav-link{color:#000!important;}
+    .navbar li .nav-link:hover{
+        color:#59815b!important;
+        transition:all .3s;
+        background-color:#ecebe1;
+        display:inline-block;
+    }
+}
