@@ -1,0 +1,185 @@
+/*All*/
+body{
+    height:100%;
+    overflow-y: hidden;
+    background: url('../img/demo-bg.jpg');
+    font-family: 'Open Sans', sans-serif;
+    color:#666666;
+}
+
+h1,h2,h3,h4,h5,h6{font-family:"Poppins", sans-serif;}
+
+/*Navbar*/
+.navbar{
+    max-width:1350px;
+    min-height:80px;
+    background:transparent!important;
+}
+
+.navbar-black{
+    background-color:rgba(52, 59, 64, 0.9)!important;
+    padding:20px 0;
+    height:72px;
+    transition:all 0.5s;
+    width: 1110px;
+    max-width: 100%;
+}
+
+a.navbar-brand img{width:100px!important;}
+.navbar .nav-link{
+    background:transparent!important;
+    font-size:13px;
+    border-bottom:2px solid rgba(52, 59, 64, 0.9);
+}
+
+.nav-pills .nav-link.active{
+    border-bottom:2px solid #2dc997;
+    transition:all .2s;
+}
+
+.navbar-light,
+.bg-light{color:#666666;}
+
+#content{
+    position: relative;
+    overflow:auto;
+    height:100vh;
+}
+
+/*Header*/
+header{
+    background:linear-gradient(rgba(0,0,0,0.6), transparent 100%),url('../img/hero-bg.jpg');
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+}
+
+header h1{
+    padding-top:40vh;
+    font-size:48px;
+}
+
+header h2{
+    font-size:24px;
+    color:#eee;
+}
+
+.btn-outline-secondary{
+    border:2px solid #fff;
+    color:#fff;
+    padding: 5px 20px;
+    font-size:18px;
+}
+
+.btn-outline-secondary:hover{
+    background-color:#2dc997;
+    border:2px solid #2dc997;
+    transition:all .6s;
+}
+
+/*About*/
+/* #about{height:90vh;} */
+.bg-white{background-color:#fff!important;}
+
+.btn-secondary{
+    background-color:#2dc997!important;
+    border:2px solid #2dc997;
+    padding: 5px 20px;
+}
+.btn-secondary:hover{
+    opacity:.9;
+    border:2px solid #2dc997;
+}
+
+.content-about p{font-size:15px;}
+.content-about i{font-size:35px;color:#2dc997;}
+
+/*Services*/
+/* #sevices{height:90vh;} */
+#services .btn-outline-secondary{
+    /* border:2px solid #2dc997; */
+    background-color:#2dc997;
+    color:#fff;
+    font-size:25px;
+    padding:15px 20px;
+}
+
+#services .btn-outline-secondary:hover{
+    background-color:#fff;
+    border:2px solid #2dc997;
+    transition:all .6s;
+}
+
+#services .btn-outline-secondary:hover i {color:#2dc997;}
+#services .lead{
+    font-size:15px;
+    font-weight:500;
+}
+
+/*Team*/
+#team{padding-top:50px;}
+.btn-gray{background-color:#343A40!important;}
+
+#team img{
+    width:14rem;
+    height:14rem;
+    border:0.5rem solid rgba(0,0,0, 0.1);
+}
+
+.fa-facebook-f{padding:4px 2px;}
+
+/*Contact*/
+#contact{
+    height:100vh;
+    background:url('../img/map-image.png');
+    background-color:#212529;
+}
+
+.form-group .form-control{
+    padding:35px 15px;
+    border:1px solid rgba(0,0,0, 0.1);
+}
+
+.form-control:focus{box-shadow:none;}
+.form-group-textarea textarea[placeholder],
+.form-control[placeholder]{font-weight:bold;}
+.form-group-textarea textarea{
+    min-height:249px;
+    padding:30px 15px;
+}
+
+#contact .btn{
+    padding:20px 35px;
+    font-size:20px;
+}
+
+/*Footer*/
+.text-color{color:#2dc997;}
+.text-color:hover{color:#1db182;}
+
+/*@media*/
+/*sm*/
+@media (max-width: 320.98px) {
+    #about{padding-bottom:230vh;}
+    #team{padding-bottom:290vh}
+    #contact{padding-bottom:170vh;}
+}
+
+@media (min-width: 375.98px)and (max-width: 575.98px){
+    /* #about{height:200vh;} */
+}
+
+@media (max-width: 575.98px) { 
+    header h1{
+        padding-top:30vh;
+        font-size:28px;
+    }
+    header h2{font-size:18px;}
+    #about{height:175vh;}
+    #team{height:260vh;}
+    #team h2{font-size:2.4rem;}
+    #contact{height:140vh;}
+}
+
+/*md*/
+@media (min-width: 768px) and (max-width: 991.98px) {#team{height:150vh;}}
