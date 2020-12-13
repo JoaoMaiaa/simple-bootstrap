@@ -1,0 +1,108 @@
+/*all*/
+body{font-family: 'Source Sans Pro', sans-serif !important;}
+p{font-family:'Roboto', sans-serif;}
+
+/*nav*/
+.navbar{min-height:80px}
+a.navbar-brand{color:#000;}
+a.navbar-brand:hover{opacity:.7;}
+a.nav-link{font-size:12px;color:#fff;}
+a.nav-link:hover{opacity:.7;}
+
+/*input*/
+.border-left{border-left:3px solid #DF0022 !important;}
+.input-group{
+    left: 50px;
+    position: absolute;
+    z-index: 999;
+    margin-left:0px;
+    max-width:550px;
+}
+
+.form-control{
+    padding:35px 15px;
+    font-size:18px;
+}
+
+.form-control:focus{box-shadow: none;}
+.input-group-text{padding:0px 30px;}
+.social-m{
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 120px;
+}
+
+.btn-blue{
+    background-color:#4064AC!important; 
+    color:#fff;
+    padding:6px 14px;
+    border-color:#4064AC!important;
+}
+
+.btn-blue:hover{
+    color:#fff;
+    background-color:rgb(58, 93, 161)!important; 
+    border-color:rgb(58, 93, 161)!important;
+}
+
+.btn-danger{
+    background-color:#DF0022!important;
+    border-color:#DF0022!important;
+}
+
+.btn-danger:hover{
+    background-color:rgb(189, 3, 31)!important;
+    border-color:rgb(189, 3, 31)!important;
+}
+
+.btn-dark{
+    background-color:#0D0B16!important;
+    border-color:#0D0B16!important;
+}
+
+.btn-dark:hover{
+    background-color:rgb(5, 4, 8)!important;
+    border-color:rgb(5, 4, 8)!important;
+}
+
+.btn-primary{
+    background-color:#29A4D9!important;
+    border-color:#29A4D9!important;
+}
+
+.btn-primary:hover{
+    background-color:rgb(37, 138, 182)!important;
+    border-color:rgb(37, 138, 182)!important;
+}
+
+/*img*/
+.img{
+    background:linear-gradient(to bottom ,rgba(0,0,0,0.5), transparent 150%),url('../img/road-5767221_1280.jpg');
+    height:100vh;
+    background-position:cover;
+    background-size:left;
+    z-index:1;
+}
+
+/*media*/
+@media (max-width: 576px) { 
+    .content{padding:100px;}
+    .input-group{
+        margin-left:40px;
+        max-width:300px;
+    }
+    .social-m{
+        position: absolute;
+        padding-top: 50px;
+        padding-left: 80px;
+    }    
+} 
+
+@media (min-width: 576px) and (max-width: 768px) { 
+    .content{padding:100px;}
+    .input-group{
+        margin-left:110px;
+        max-width:400px;
+    }
+}
+
